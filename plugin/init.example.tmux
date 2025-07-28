@@ -22,7 +22,7 @@ set -g @wk_cfg_pos_y "P"
 # Custom variables
 #
 
-setenv -h log_info "#[fg=green,italics] [info]#[default]#[italics]"
+setenv log_info "#[fg=green,italics] [info]#[default]#[italics]"
 
 #
 # Menus
