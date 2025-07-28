@@ -132,7 +132,7 @@ class CustomVariable(object):
     def __str__(self) -> str:
         # Sets the env var as hidden (-h) so it's only available to tmux
         # processes.
-        return 'setenv -h {} "{}"'.format(self.name, self.value)
+        return 'setenv {} "{}"'.format(self.name, self.value)
 
 
 @dataclass
